@@ -63,13 +63,29 @@ h1 {
 header h1:first-of-type::first-letter {
     font-weight: bold;
     font-size: 3rem;
+    font-style: italic;
     color: var(--secondary-color);
     text-shadow: var(--neutral-lt-color);
 }
 
-.card p:first-child::first-line {
-    font-weight: bold;
+header h2:first-of-type::first-letter {
+font-weight: bold;
+font-size: 3rem;
+font-style: italic;
+color: var(--accent-color-dark);
+}
+
+article p:first-of-type::first-line {
     color: var(--primary-color);
+    font-weight: bold;
+}
+
+article p:first-of-type::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    float: left;
+    margin-top: -10px;
+    padding: 0 8px 0 0;
 }
 
 h2 {
@@ -85,7 +101,7 @@ p {
 /* Figure slector */
 img {
     max-width: 100%;
-    height: auto;
+    height: 350px;
 }
 
 header {
@@ -157,6 +173,11 @@ section.ygn {
 .ygn .btn {
     display: inline-block;
     margin: 0 0 var(--spacer) var(--spacer);
+}
+
+.mdl h2 {
+    color: var(--neutral-lt-color);
+    background-color: var(--accent-color-bright);
 }
 
 /* Footer */
