@@ -72,8 +72,8 @@ p {
 
 /* Figure slector */
 img {
-    width: 320px;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
 }
 
 header {
@@ -94,7 +94,7 @@ header {
     text-decoration: none;
 }
 
-
+/* button hover selector */
 .btn:hover {
     background-color: var(--accent-color-bright);
 
